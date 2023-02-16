@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>UVM Computing Student Research Day (CSRD)</title>
+
+    <!-- Colors drawn from UVM's color palette: #007155 #1375AF #66AC47 -->
+    <style>
+      h3,h4         {color: #007155;}
+      a             {color: #1375AF;}
+      .basebar      {font-size: smaller; color: darkgray;}      
+      .basebar-link {color: #66AC47;}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color: #007155;">
+      <div class="container">
+        <a class="navbar-brand" href="#">The University of Vermont (UVM)</a>
+      </div>
+    </nav>
+
+    <main class="container">
+    <h3>Computing Student Research Day 2022 (CSRD '22)</h3>
+    <!-- <p words="research,algorithms,modeling,machine learning,deep learning,neural networks,complex systems,secure computation,sociotechnical,computer vision,e-health">
+    </p> -->
+    <dl>
+      <br />
+      <dt>What/Who:</dt> <dd>This annual UVM event brings together students and faculty in the broad field of computing. Research-active students will present their work to their peers and mentors. Attendance is open to all members of the UVM community.</dd>
+      <br />
+      <dt>When:</dt> <dd><mark>Friday, September 23, 2022 (9:00am–4:00pm)</mark></dd>
+      <br />
+      <dt>Where:</dt> <dd>Sugar Maple Ballroom, <a href="https://www.uvm.edu/daviscenter">Davis Center</a></dd>
+      <br />
+      <dt>CSRD '22 Organizers:</dt> <dd><a href="https://www.uvm.edu/~jonaolap">Jeremiah Onaolapo</a> and <a href="https://yuanyuanfeng.com/">Yuanyuan Feng</a>
+      <br />
+      <em>(UVM Computer Science)</em></dd>
+    </dl>
+    <br>
+    <h4>Distinguished Faculty Speakers</h4>
+    <ul>
+      <li>
+        <a href="https://seclab.bu.edu/people/gianluca/">Gianluca Stringhini</a> (Boston University)
+      </li>
+      <li>
+          <a href="https://drizzo.w3.uvm.edu/">Donna Rizzo</a> (University of Vermont)
+        </li>
+    </ul>
+    <br>
+
+    <h4>Student Presentation Formats</h4>
+    <ul>
+      <li>Long: 20m presentation and 5m Q/A</li>
+      <li>Short: 16m presentation and 4m Q/A</li>
+    </ul>
+    <br>
+
+    <h4>Program</h4>
+    <p>
+      <em>This schedule is preliminary; the exact presentation ordering may change. Invited presentations will not change times.</em>
+    <p>
+    <table class="table">
+      <tr>
+        <td class="text-nowrap">9:00am–9:30am</td>
+        <td><mark>Breakfast and Networking</mark></td>
+      </tr>
+      <tr>
+        <td class="text-nowrap">9:30am–9:35am</td>
+        <td>Chris Skalka (CS Chair)<br> <em>Welcome Address</em></td>
+      </tr>
+      <tr>
+        <td class="text-nowrap">9:35am–10:30am</td>
+        <td><!-- {{{ [Invited presentation] Gianluca Stringhini, BU -->
+            <!-- SLOT -->
+            <span style="color:#007155; font-weight: bold;">Invited Presentation</span>
+            <br>
+            <!-- SPEAKER -->
+            <a href="https://seclab.bu.edu/people/gianluca/">Gianluca Stringhini</a>, Boston University
+            <!-- TITLE -->
+            <br>
+            <em>
+              Computational Methods to Measure and Mitigate Online Disinformation
+            </em>
+            <br>
+            <a data-toggle="collapse" href="#t1-abstract" role="button">
+              Abstract
+            </a>
+            <div class="collapse" id="t1-abstract">
+              <div class="card card-body">
+                The Web has allowed disinformation to reach an unprecedented scale, allowing it to become ubiquitous and harm society in multiple ways. To be able to fully understand this phenomenon, we need computational tools able to trace false information, monitoring a plethora of online platforms and analyzing not only textual content but also images and videos. In this talk, I will present my group's efforts in developing tools to automatically monitor and model online disinformation. These tools allow us to trace how news stories are discussed on multiple social networks, to identify false and misleading images posted online, and to detect inauthentic social network accounts that are likely involved in state-sponsored influence campaigns. I will then discuss our research on understanding the potentially unwanted consequences of suspending misbehaving users on social media.
+              </div>
+            </div>
+            <!-- }}} -->
+        </td>
+      </tr>
+      <tr>
+        <td class="text-nowrap">10:30am–11:15am</td>
+        <td>
+          <span style="color:#007155; font-weight: bold;">Session I: Social Tech</span>
+          <br>
+          <!-- {{{ Speaker -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [25m, 10:30am–10:55am]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Juniper Lovato, 
+          <!-- TITLE -->
+          <em>
+            Diverse Misinformation: Biases in Human Deepfake Detection
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+            Advisor(s): Randall Harp and Peter S. Dodds
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t2-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t2-abstract">
+            <div class="card card-body">
+              Deepfakes are increasingly convincing, and their ubiquity poses important ethical and technical concerns regarding the ability of humans to detect them. It is currently unknown to what extent human biases affect human deepfake detection ability. Our project presents the survey results where users are exposed to video content, not knowing the content might be a deepfake. Participants are subsequently asked to guess whether each video watched is real or a deepfake. Survey participants (N=1,000) are sampled to represent the average U.S. social media user. We then estimate the rate by which users of different demographic backgrounds are duped and by what types of self-similar or self-dissimilar deepfake personas. Given that deepfakes have the potential for harm, cast doubts on video's evidentiary power, and can contribute to misinformation, it is critical to understand who gets deceived by deepfake videos and why. Human-aided machine learning models are the current standard for deepfake detection, and human biases are also likely to affect these detection models on multiple levels. This study is a step towards understanding these biases and may help understand emerging societal problems contributing to the critical literature on the interplay of human biases and machine-generated content.
+            </div>
+          </div>
+          <!-- }}} -->
+          <br><span style="color:darkgray">---------</span><br>
+          <!-- {{{ [20m]   -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [20m, 10:55am-11:15am]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Kathryn Cramer, 
+          <!-- TITLE -->
+          <em>
+            Evaluating GPT-3, a Large Language Model, Through Conversation: A Method
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+            Advisor(s): Peter S. Dodds and Chris Danforth
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t3-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t3-abstract">
+            <div class="card card-body">
+              OpenAI's GPT-3 is a Large Language Model known for generating fluent prose. This research is focused on GPT-3's apparent ability to emulate the narrative voices of writers, historical figures, and imaginary characters. Other researchers have established that GPT-3 is prone to hallucinating "facts," generating false information presented as fact. In this work, the researcher engaged GPT-3 in conversation via OpenAI's web-browser interface, called Playground, for the purpose of using extended conversation formats to learn about the nature and functioning of GPT-3. When GPT-3 is induced to emulate narrators with subject area expertise, its access to factual information and intellectual frameworks appears to improve. This is explored both in conversations in chat format and through simulated discussions involving between two and five characters. This technique, an automated form of Design Fiction, was used to get GPT-3 to reflect on its own functioning based on the observation that the Computer Science literature appears to be over-represented in its training data. Preliminary results suggest that the language model is only part of the system: Other components, such as "guard-railing" to avoid toxic outputs, are accomplished through a reinforcement learning system that appears to exert unexpected influences on the values of its simulated narrators.
+            </div>
+          </div>
+          <br>
+          <!-- }}} -->
+          </td>
+        </tr>
+        <tr>
+          <td class="text-nowrap">11:15am–12:00pm</td>
+          <td>
+            <span style="color:#007155; font-weight: bold;">Session II: Machine Learning/Deep Learning</span>
+            <br>
+          <!-- {{{ [20m]   -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [20m, 11:15am–11:35am]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Mustafa Matar, 
+          <!-- TITLE -->
+          <em>
+            Transformer-based Deep Learning Models for Forced Oscillation Localization
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+          Advisor(s): Safwan Wshah
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t4-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t4-abstract">
+            <div class="card card-body">
+              Accurately locating Forced Oscillations (FOs) source(s) in a large-scale power system is a challenging task, and an important aspect of power system operation. In this paper, a complementary use of Deep Learning (DL)-based and Dissipating Energy Flow (DEF)-based methods is proposed to localize FO source(s) using data from Phasor Measurement Units (PMUs), by tracing the source(s) in the power system network. The robustness and effectiveness of the proposed approach is demonstrated in a WECC 240-bus test system, with high renewable integration in the system. Several simulated cases including White Gaussian Noise, partially observed system, and operational topology variation in the system which observed real-world challenges were tested. Timely localization of Forced Oscillations (FOs) at an early stage provides the opportunity for taking remedial reaction. The results show that without the availability of system operational topology information, the proposed method can achieve high localization accuracy.
+            </div>
+          </div>
+          <!-- }}} -->
+          <br><span style="color:darkgray">---------</span><br>
+          <!-- {{{ [25m]   -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [25m, 11:35am–12:00pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Xiaohan Zhang, 
+          <!-- TITLE -->
+          <em>
+            Cross-view Image Sequence Geo-localization
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+          Advisor(s): Safwan Wshah
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t5-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t5-abstract">
+            <div class="card card-body">
+              Cross-view geo-localization aims to estimate the GPS location of a query ground-view image by matching it to images from a reference database of geo-tagged satellite images. To address this challenging problem, recent approaches use panoramic ground-view images to increase the range of visibility. Although appealing, panoramic images are not readily available compared to the videos of limited Field-Of-View (FOV) images. In this paper, we present the first cross-view geo-localization method that works on a sequence of limited FOV images. Our model is trained end-to-end to capture the temporal structure that lies within the frames using the attention-based temporal feature aggregation module. To robustly tackle different sequences length and GPS noises during inference, we propose to use a sequential dropout scheme to simulate variant length sequences. To evaluate the proposed approach in realistic settings, we present a new large-scale dataset containing ground-view sequences along with the corresponding satellite-view images. Extensive experiments and comparisons demonstrate the superiority of the proposed approach compared to several competitive baselines. Code and dataset will be made publicly available.
+            </div>
+          </div>
+          <!-- }}} -->
+          <br>
+
+        </td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td class="text-nowrap">12:00pm–1:00pm</td>
+        <td><mark>Lunch Break</mark></td>
+      </tr>
+
+      <tr>
+        <td class="text-nowrap">1:00pm–1:45pm</td>
+        <td>
+          <span style="color:#007155; font-weight: bold;">Session III: e-Health</span>
+          <br>
+          <!-- {{{ [25m] Speaker -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [25m, 1:00pm–1:25pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Bryn C. Loftness, 
+          <!-- TITLE -->
+          <em>
+            The ChAMP App: A Scalable mHealth Technology for Detecting Digital Phenotypes of Childhood Anxiety and Depression
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+          Advisor(s): Nick Cheney, Ryan McGinnis, and Ellen McGinnis
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t6-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t6-abstract">
+            <div class="card card-body">
+            <!-- ABSTRACT -->
+            Internalizing disorders, such as anxiety and depression, in pre-school aged children are common and often go undiagnosed. The long-term risk factors of non-intervention include impaired interpersonal abilities, substance abuse, and increased risk for suicide. Thus, early identification is crucial for timely intervention and symptom relief. However, there are no valid self-report assessments for children younger than 8 years, and parental-reports of child anxiety and depression exhibit bias and poor sensitivity. Our prior works demonstrate promise in identifying early childhood anxiety and depression using objective physiology (motion/audio) measured via wearable sensors during brief mood induction tasks. However, these methods require specialized equipment and expertise to administer and analyze. To improve ecological validity, we have developed an Android app (ChAMP) and waistbelt to carry out similar methodology. We have collected data from 50 children ages 4-8, with and without anxiety or depressive disorders, collected via the ChAMP app. We present results indicating several significant group-level differences based on movement and audio-derived features, as well as several significant features correlative to symptom severity in diagnosed emoting children. We aim for the ChAMP app to aid in early identification of anxiety and depressive mental health disorders in young children through further scalable efforts.
+            </div>
+          </div>
+          <!-- }}} -->
+          <br><span style="color:darkgray">---------</span><br>
+          <!-- {{{ [20m]   -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [20m, 1:25pm–1:45pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Carter Ward, 
+          <!-- TITLE -->
+          <em>
+            Everyone's a Pediatrician: Observations on the Crowdsourced Parenting Handbook BabyCenter
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+          Advisor(s): Sarah Nowak and Chris Danforth
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t7-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t7-abstract">
+            <div class="card card-body">
+            <!-- ABSTRACT -->
+            Prior research on platforms like Facebook, Twitter, and Reddit suggests that the structure of a social platform influences the kinds of questions that can be answered about our behavior when studying a platform. In this presentation, we present preliminary observational findings on data from BabyCenter, an online platform supporting interactions between parents. The structure specific to BabyCenter, namely post-comment interactions with authors organized by birth month cohort into groups, makes the site a rich source for investigating questions related to public health, parental attitudes over time, and behavioral influence surrounding important decisions.
+            </div>
+          </div>
+
+          <br>
+        </td>
+      </tr>
+    </tr>
+
+    <tr>
+      <td class="text-nowrap">1:45pm–2:45pm</td>
+      <td>
+        <span style="color:#007155; font-weight: bold;">Session IV: System Modeling and Security</span>
+        <br>
+        <!-- }}} -->
+          <!-- {{{ [20m]   -->
+          <!-- SLOT -->
+          <span style="color:darkgray">
+            [20m, 1:45pm–2:05pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Ivan Perez-Avellaneda, 
+          <!-- TITLE -->
+          <em>
+            Nonlinear System Reachable Set Computation: Learning Approach with Chen-Fliess Series
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+          Advisor(s): Luis Duffaut-Espinosa
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t8-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t8-abstract">
+            <div class="card card-body">
+            <!-- ABSTRACT -->
+            Maintaining systems in a safe region of operation from a control perspective involves the computation of the reachable set which is the set of outputs of the system to a set of inputs. The methods to compute the reachable set are classified into state-space and input-output approaches. The first approach requires the knowledge of the state-space representation of the system which for many real situations in engineering can be hard to obtain. The second approach allows for data-driven solutions. In the present work, reachable sets of nonlinear systems are computed using its input-output representation provided by the Chen-Fliess series formalism from the noncommutative algebra field and the Gradient Descent algorithm used in Machine Learning. To achieve this, tools from analysis such as the Gateaux derivative, the gradient operator, and the Taylor linear approximation are extended to the Chen-Fliess series to make use of the Gradient Descent algorithm in this context. Preliminary results using state-space Mixed Monotonicity (MM) and input-output Mixed Monotonicity (IOMM) are presented and compared using simulations. The results show that this new approach is more effective than IOMM and performs as well as MM in the convergence region of the Chen-Flies series subject to the proper learning parameters.
+            </div>
+          </div>
+          <!-- }}} -->
+          <br><span style="color:darkgray">---------</span><br>
+        <!-- {{{ [20m]   -->
+        <!-- SLOT -->
+        <span style="color:darkgray">
+          [20m, 2:05pm–2:25pm]
+        </span>
+        <br>
+        <!-- SPEAKER -->
+        Michael McConnell, 
+        <!-- TITLE -->
+        <em>
+          Probabilistic MPC Security Semantics
+        </em>
+        <!-- ADVISOR -->
+        <br>
+        <span style="color:darkgray">
+        Advisor(s): Chris Skalka
+        </span>
+        <br>
+        <a data-toggle="collapse" href="#t9-abstract" role="button">
+          Abstract
+        </a>
+        <div class="collapse" id="t9-abstract">
+          <div class="card card-body">
+            Multi-party computation is a set of cryptographic techniques which allow multiple parties to securely compute a function jointly while keeping the inputs of each respective party private. MPC protocols have the potential to allow secure private data sharing between organizations for use cases such as federated machine learning. This can also be useful as a method for sharing data with researchers in an aggregate form without giving away private datasets. In such protocols, it is sometimes possible for malformed secure functions to allow malicious participants to probabilistically infer some information about honest users' private inputs. This information leakage is a key problem in designing MPC protocols, many of which allow for a leakage threshold of some small amount of information. In our work, we are designing a language to probabilistically measure the information leakage of MPC protocols. Our language will enforce output uniformity of secure MPC functions, catching functions that leak information above some specific security threshold.
+          </div>
+        </div>
+        <!-- }}} -->
+        <br><span style="color:darkgray">---------</span><br>
+
+        <!-- {{{ [20m]   -->
+        <!-- SLOT -->
+        <span style="color:darkgray">
+          [20m, 2:25pm-2:45pm]
+        </span>
+        <br>
+        <!-- SPEAKER -->
+        Krystal Maughan, 
+        <!-- TITLE -->
+        <em>
+          Price of Anarchy for Selfish Routing on the Lightning Network
+        </em>
+        <!-- ADVISOR -->
+        <br>
+        <span style="color:darkgray">
+          Advisor(s): Christelle Vincent and Joe Near
+        </span>
+        <br>
+        <a data-toggle="collapse" href="#t10-abstract" role="button">
+          Abstract
+        </a>
+        <div class="collapse" id="t10-abstract">
+          <div class="card card-body">
+            The Visa payment network claims to perform anywhere from 24,000 to 56,000 transactions per second on its network. In comparison, the Bitcoin blockchain network processes 7 transactions per second. The Bitcoin blockchain network cannot cover the world's commerce without broadcasting to all nodes each transaction, which is performance-intensive, in attempting to encompass all global transactions. Therefore, for Bitcoin to support Visa-like capacity, a solution is the Lightning Network for processing micropayments, which is an off-chain payment system payment system for Bitcoin. 
+            As more users join the Lightning Network, we need to quantify the robustness of the network in terms of liquidity and the impact of selfish-routing, as this affects the level to which the Lightning Network can scale and be robust as more users join the Lightning Network and is pivotal in determining failure of the Lightning Network as congestion on the network increases.
+            <br><br>The Price of Anarchy (PoA) is defined via an objective function to determine in a network with traffic what is the worst-case ratio between Pure (Nash) equilibria and a noncooperative party or selfish routing. In other words, they define the degree to which flows at Nash equilibria would be determined to be inefficient via a minimum latency path. We model channel depletion as a congestion game on the Lightning Network, which is an off-chain peer-to-peer solution for Bitcoin micropayments. We determine a plan for researching methodologies to answer the question "how does the Price of Anarchy translate to network congestion given the particular limitations of the Lightning Network?". We look at the constraints of anarchy as they relate to price (and other constraints) and how they would generalise to nodes using min cost flow and multi part payments. We identify methods for discovering how routing nodes can provide liquidity to help selfish senders of payments to have a low price of anarchy. 
+            Our work draws on Algorithmic Game Theory, Economics and Computation, specifically by way of modelling Congestion Games. We also draw upon Martingale Theory and Theoretical Computer Science.
+          </div>
+        </div>
+        <!-- }}} -->
+        <br>
+
+      </td>
+    </tr>
+    
+    <tr>
+      <td class="text-nowrap">2:45pm–3:00pm</td>
+      <td><mark>Coffee Break</mark></td>
+    </tr>
+
+    <tr>
+        <td class="text-nowrap">3:00pm–3:40pm</td>
+        <td><!-- {{{ [Invited presentation] Donna Rizzo -->
+            <!-- SLOT -->
+            <span style="color:#007155; font-weight: bold;">Invited Presentation</span>
+            <br>
+            <!-- SPEAKER -->
+            <a href="https://drizzo.w3.uvm.edu/">Donna Rizzo</a>, University of Vermont
+            <!-- TITLE -->
+            <br>
+            <em>
+              Using AI to Unravel Complexity in Natural Systems
+            </em>
+            <br>
+            <a data-toggle="collapse" href="#t11-abstract" role="button">
+              Abstract
+            </a>
+            <div class="collapse" id="t11-abstract">
+              <div class="card card-body">
+                The challenges associated with the Big Data revolution have less to do with the amount of data being generated, and more to do with how these data are being used. Artificial intelligence (AI) is a tool that can help humans visualize and integrate information, identify patterns, and more importantly – rethink how we use the resulting insights to improve decision making. This talk will focus on the application of AI to identify patterns and find order in some of the chaotic systems that make up our daily lives. Examples will range from the reconciliation of competing water interests to the study of healthcare conversations to better understand high-quality communication.
+              </div>
+            </div>
+            <!-- }}} -->
+        </td>
+      </tr>
+
+    </tr><tr>
+      <td class="text-nowrap">3:40pm–4:00pm</td>
+      <td><div><span style="color:#007155; font-weight: bold;">Awards and Closing Remarks (Show Up to Vote)</span>
+      <br>Prizes: 1st place ($300), 2nd place ($200), 3rd place ($150)</div></td>
+    </tr><tr>
+
+    </table>
+    <br>
+
+    <h4>Waiting List</h4>
+    <table class="table">    
+          <a data-toggle="collapse" href="#waitinglist" role="button">
+            Click here to expand. Listed top to bottom.
+          </a>
+          <div class="collapse" id="waitinglist">
+            <div class="card card-body">
+              <p>
+                1. Mariah Boudreau, <em>Temporal, Probabilistic and Analytical Forecasts of Epidemic Interventions</em><br>
+                2. Danial Waleed, <em>Robustification of Model-free Control</em><br>
+                3. Michael Arnold, <em>Curating Social Media Datasets with Sentence Embeddings</em>
+              </p>
+            </div>
+          </div>
+    </table>
+    <br>
+    </main>
+
+    <nav class="navbar navbar-default navbar-dark bg-dark">
+      <div class="container">
+        <ul class="nav navbar-nav basebar">
+          <li>Brought to you by the <a class="basebar-link" href="https://www.uvm.edu/cems/cs">Department of Computer Science</a> at <a class="basebar-link" href="https://www.uvm.edu/">UVM</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
