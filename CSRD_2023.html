@@ -26,14 +26,14 @@
     </nav>
 
     <main class="container">
-    <h3>Computing Student Research Day 2023 (CSRD '23)</h3>
+    <h3>The Computing Student Research Day 2023 (CSRD '23)</h3>
     <!-- <p words="research,algorithms,modeling,machine learning,deep learning,neural networks,complex systems,secure computation,sociotechnical,computer vision,e-health">
     </p> -->
     <dl>
       <br />
-      <dt>What/Who:</dt> <dd>This annual UVM event brings together students and faculty in the broad field of computing. Research-active students will present their work to their peers and mentors. Attendance is open to all members of the UVM community.</dd>
+      <dt>What/Who:</dt> <dd>The UVM Computing Student Research Day brings together students and faculty in the broad field of computing. Research-active students will present their work to their peers and mentors. This event is open to all members of the UVM community.</dd>
       <br />
-      <dt>When:</dt> <dd><mark>Friday, September 15, 2023 (8:45am–4:00pm)</mark></dd>
+      <dt>When:</dt> <dd><mark>Friday, September 15, 2023 (9:00am–4:00pm)</mark></dd>
       <br />
       <dt>Where:</dt> <dd>Chittenden Bank Room, <a href="https://www.uvm.edu/daviscenter">Davis Center (4th Floor)</a></dd>
       <br />
@@ -56,19 +56,19 @@
     <h4>Program</h4>
     
     <p>
-      <em>This schedule is preliminary; the exact presentation ordering may change. The distinguished invited talk will not change times.</em>
+      <em>This schedule is preliminary and the order of student presentations may change. </em>
     <p>
     <table class="table">
       <tr>
-        <td class="text-nowrap">8:45am–9:15am</td>
+        <td class="text-nowrap">9:00am–9:30am</td>
         <td><mark>Breakfast and Networking</mark></td>
       </tr>
       <tr>
-        <td class="text-nowrap">9:15am–9:20am</td>
-        <td>Chris Skalka (CS Chair)<br> <em>Welcome Address</em></td>
+        <td class="text-nowrap">9:30am–9:35am</td>
+        <td>Chris Skalka (UVM Computer Science Chair)<br> <em>Welcome Address</em></td>
       </tr>
       <tr>
-        <td class="text-nowrap">9:20am–10:20am</td>
+        <td class="text-nowrap">9:35am–10:35am</td>
         <td>
             
         <!-- SLOT -->
@@ -77,16 +77,14 @@
             <br>Prof. <a href="https://www.ccs.neu.edu/home/ek/" target="_blank">Engin Kirda</a>, Northeastern University
             <!-- TITLE -->
             <br>
-            <em>
-              Title of the talk
-            </em>
+            <em>T-Reqs: HTTP Request Smuggling with Differential Fuzzing </em>
             <br>
             <a data-toggle="collapse" href="#t1-abstract" role="button">
               Abstract
             </a>
             <div class="collapse" id="t1-abstract">
               <div class="card card-body">
-                Abstract of the talk.
+                HTTP Request Smuggling (HRS) is an attack that exploits the HTTP processing discrepancies between two servers deployed in a proxy-origin configuration, allowing attackers to smuggle hidden requests through the proxy. While this idea is not new, HRS is soaring in popularity due to recently revealed novel exploitation techniques and real-life abuse scenarios. In this talk, I step back a little from the highly-specific exploits hogging the spotlight, and present the first work that systematically explores HRS within a scientific framework. We design an experiment infrastructure powered by a novel grammar-based differential fuzzer, test 10 popular server/proxy/CDN technologies in combinations, identify pairs that result in processing discrepancies, and discover exploits that lead to HRS. Our experiment reveals previously unknown ways to manipulate HTTP requests for exploitation, and for the first time documents the server pairs prone to HRS.
               </div>
             </div>
               
@@ -94,54 +92,29 @@
       </tr>
                 
       <tr>
-        <td class="text-nowrap">10:30am–12:10pm</td>
+        <td class="text-nowrap">10:40am–12:00pm</td>
         <td>
-          <span style="color:#007155; font-weight: bold;">Session I: 5 talks</span>
+          <span style="color:#007155; font-weight: bold;">Session I: Machine Learning and Applied Computing</span>
           <br>
           <!-- {{{ Speaker -->
           
-        <!-- SLOT -->
-          <span style="color:darkgray">
-            [10:30am–10:50am]
-          </span>
-          <br>
-          <!-- SPEAKER -->
-          Name 
-          <!-- TITLE -->
-          <em>
-            Title of the talk
-          </em>
-          <!-- ADVISOR -->
-          <br>
-          <span style="color:darkgray">
-            Advisor(s): Names
-          </span>
-          <br>
-          <a data-toggle="collapse" href="#t2-abstract" role="button">
-            Abstract
-          </a>
-          <div class="collapse" id="t2-abstract">
-            <div class="card card-body">
-             TBD
-            </div>
-          </div>
-            <br><span style="color:darkgray">---------</span><br>
           
           <!-- SLOT -->
           <span style="color:darkgray">
-            [10:50am-11:10am]
+            [10:40am-11:00am]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Shaurya Swami 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            Forecasting River Turbidity using Innovative Machine Learning Techniques
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Donna Rizzo and Kristen Underwood
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -149,26 +122,27 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+              Turbidity, or cloudiness in water, is an essential measure of water quality that affects not only the taste and smell of drinking water but also has harmful effects on aquatic life. It is a matter of concern in New York City (NYC), where up to 40% of its unfiltered water supply comes from the Ashokan Reservoir. This source is particularly prone to excess turbidity levels. Thus, the NYC Department of Environmental Protection could benefit from up to a seven-day prediction of turbidity levels in the reservoir. This would aid them in better managing drinking water operations. Traditional forecasting methods struggle with such predictions (in such a non-linear/complex watershed), but Machine Learning (ML) offers potential solutions. Three ML models were considered for forecasting daily turbidity: Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) models, and Gated Recursive Unit (GRU). Data from sensor stations, including factors like precipitation, soil moisture, and temperature, were used to forecast daily turbidity in the Stony Clove watershed. We hypothesized that LSTMs would perform better than GRUs and RNNs for forecasting turbidity. Our results found that LSTMs had the best overall performance for each of the 5 monitoring stations. Root Mean Square Error (RMSE) values ranged from 5-18 for the algorithms with only 1 station having a slightly lower GRU RMSE value compared to the LSTM. Overall, we observed that LSTMs had the best performance while GRUs had the fastest computation time.
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br>
             
         <!-- SLOT -->
           <span style="color:darkgray">
-            [11:10am-11:30am]
+            [11:00am-11:20am]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Cailin Gramling 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            Wearable Sensors as a Novel Assessment Method for Duchenne Muscular Dystrophy
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Donna Rizzo and Ryan McGinnis
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -176,35 +150,7 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
-            </div>
-          </div>
-          <br><span style="color:darkgray">---------</span><br>
-            
-            
-        <!-- SLOT -->
-          <span style="color:darkgray">
-            [11:30am-11:50am]
-          </span>
-          <br>
-          <!-- SPEAKER -->
-          Name 
-          <!-- TITLE -->
-          <em>
-            Title of the talk
-          </em>
-          <!-- ADVISOR -->
-          <br>
-          <span style="color:darkgray">
-            Advisor(s): Name
-          </span>
-          <br>
-          <a data-toggle="collapse" href="#t3-abstract" role="button">
-            Abstract
-          </a>
-          <div class="collapse" id="t3-abstract">
-            <div class="card card-body">
-              abstract
+              Duchenne Muscular Dystrophy (DMD) is a childhood genetic muscular disorder characterized by progressive muscle weakness leading to ambulatory, cardiac, and respiratory complications as well as premature death. Traditional presentations of this disease include delayed gross motor skills and gait abnormalities. Current clinical trial designs require outcome measures that necessitate travel to onsite assessment. The potential to remotely assess movement quality and discern differences between DMD and healthy control groups alleviates the assessment burden and can offer valuable insights into disease trajectory. This study investigates wearable sensors as a novel assessment of DMD for children aged 4-12. Current activity classification models will be evaluated for accuracy within this population, and statistical models will be used to assess class differences. Preliminary results suggest data captured by wearable sensors, such as heart rate, can be used to differentiate between individuals with DMD and their healthy counterparts. 
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br>
@@ -212,19 +158,20 @@
             
         <!-- SLOT -->
           <span style="color:darkgray">
-            [11:50am-12:10pm]
+            [11:20am-11:40am]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Emily Ertle 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            Dancing in the Dark: Evolving CPG-less Controllers to Entrain Locomotion to Patterned Stimuli 
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Josh Bongard and Piper Welch
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -232,45 +179,72 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+              Legged locomotion presents a significant challenge in robotics. Many legged robots accomplish stable movement through models of “central pattern generators (CPGs),” a type of neural circuit which underlies biological rhythms from walking, flying and breathing to patterned cognitive and central nervous system activity. While current CPG models are effective solutions for moving from point A to point B, they have several important drawbacks. These include reliance on complex, specialized neuron models and specific neural topology, which make the system difficult to modify or improve. Artificial CPG design also sacrifices stability for adaptability, as their mechanism largely prevents gait variation. In this work, we used a multi-objective evolutionary algorithm to produce virtual robots able to rhythmically entrain–synchronize footstrikes–to a simple metronome. Robots had an “auditory neuron” to sense metronome strikes and the selection algorithm favored individuals which both traveled away from the origin and demonstrated strong rhythmic alignment. Our preliminary results indicate a robot lacking a CPG can successfully entrain to a rhythmic stimulus. These findings indicate possible benefits to an evolutionary approach to locomotion including increased simplicity and potential for adaptability demonstrated here through gait synchronization.
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br>
-                   
-          
-
+            
+            
+        <!-- SLOT -->
+          <span style="color:darkgray">
+            [11:40am-12:00pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Jordan Donovan 
+          <!-- TITLE -->
+          <br>
+          <em>
+            Unsupervised Pretraining by Evolving for Diverse Features
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+            Advisor(s): Nicholas Cheney
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t3-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t3-abstract">
+            <div class="card card-body">
+              Deep neural networks (DNNs) excel at extracting complex patterns from data to solve complex, non-linear problems across several domains. One of the most notable applications is that of deep con-volutional neural networks (CNNs) to the task of image classification. Optimizing these networks typically involves a parameter initialization processes followed by training updates. The various initialization strategies utilized can greatly affect the accuracy of the resulting trained network and efficiency of the training process. Prior works had attempted to increase or decrease the redundancy and robustness of features during training, but tend to ignore the initialization process in considering feature overlap and diversity. We propose an evolutionary pre-training technique that initializes networks in a manner that optimizes toward orthogonality of feature activations in the convolutional filters of a CNN. Relative to randomly initialized parameters, we demonstrate that this evolutionary pre-training improves the resulting accuracy of networks when training these convolutional filters on the image classification benchmark CIFAR-100 as well as performance when these filters are not additionally trained, but used as feature projections in a reservoir computing paradigm. Somewhat surprisingly, we also demonstrate that this technique provides benefits whether the initial network parameters are pretrained on the target dataset or random inputs, and that performance benefits are present after as few as 10 generations of evolutionary pretraining.
+            </div>
+          </div>
+          <br>    
  
       </tr>
       <tr>
       </tr>
       <tr>
-        <td class="text-nowrap">12:00pm–1:00pm</td>
+        <td class="text-nowrap">12:00pm–12:50pm</td>
         <td><mark>Lunch Break</mark></td>
       </tr>
 
       <tr>
-        <td class="text-nowrap">1:00pm–2:20pm</td>
+        <td class="text-nowrap">12:50pm–2:10pm</td>
         <td>
-          <span style="color:#007155; font-weight: bold;">Session II: 4 talks</span>
+          <span style="color:#007155; font-weight: bold;">Session II: Computing and Society</span>
           <br>
         
           
         
          <!-- SLOT -->
           <span style="color:darkgray">
-            [11:50am-12:10pm]
+            [12:50pm-1:10pm]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Prianka Bhattacharjee 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            Censorship vs Hate Speech and Toxicity in Online Social Network
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Jeremiah Onaolapo
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -278,7 +252,7 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+                Hate speech and toxicity on online social media is a threat because of its assurance of anonymity and reachability. Some governments (e.g.: Germany) and organizations (i.e.: Christchurch Call) introduced regulations for social media censorship to contain such issues. We studied 4 different combinations of governmental or organizational existence of regulations in 8 different countries on Twitter by collecting 0.95M tweets for a month. The purpose was to understand their effectiveness in practice. Among those collected tweets, ~40k have been censored on the platform. From time to time, each of those countries has been put under the microscope to compare the before and aftermath of putting regulations in place. But all the varieties have never been studied comparatively capturing the full picture. Countries that are solely dependent on their local authorities tend to take censorship actions more rapidly than those that have both local and organizational roles in place. Irrespective of the country, hateful, and toxic tweets are mostly made from afternoon to night when the volume of tweets is also high. Business days and weekends cannot be differentiated by their numbers. These insights can inform the future government policymakers, and the organizations to understand what combination will benefit them.
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br>    
@@ -286,19 +260,20 @@
             
           <!-- SLOT -->
           <span style="color:darkgray">
-            [11:50am-12:10pm]
+            [1:10pm-1:30pm]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Mohsen Ghasemizade 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            Leveraging NLP: A Family Tree and Classification Model for Unraveling Conspiracy Theories
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Jeremiah Onaolapo
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -306,10 +281,69 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+              A conspiracy theory (CT) suggests covert groups or powerful individuals secretly manipulate events. Not knowing about existing CTs could make one more likely to believe them, so we aimed to compile a list of CTs as comprehensive as possible. We began with a manually curated 'family tree' of CTs from academic papers and Wikipedia. Next, we examined over 2000 CT-related articles from four fact-checking websites, focusing on their core content, and used a technique called keyphrase extraction to identify the most important phrases within each article. This helped us label our dataset, reading only the keyphrases instead of the whole article. This process yielded 750 identified conspiracies, each assigned a 'family name’, and revealed 16 previously unknown CTs. We then created a binary classification model using a transformer-based machine learning technique, pre-trained on a large corpus called RoBERTa, with an F1 score of 87% to identify potential CTs in new articles. We further grouped similar articles together and labeled these groups using the 'family names' from our original tree. Overall we generated a family tree of CTs and built a pipeline to detect and categorize conspiracies within any new text corpora.
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br>
+            
+            
+        <!-- SLOT -->
+          <span style="color:darkgray">
+            [1:30pm-1:50pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Will Thompson 
+          <!-- TITLE -->
+            <br>
+          <em>
+            Learnable Asynchronous Opinion Dynamics
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+            Advisor(s): Peter Dodds
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t3-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t3-abstract">
+            <div class="card card-body">
+                The emergence of social media has granted researchers an unprecedented wealth of social interaction data in terms of both scale and accuracy. Numerous mathematical models have been formulated to depict the propagation of opinions across social networks. However, to bridge the gap between these models and the actual social media data, the development of techniques that can accurately infer model parameters from the data becomes imperative.
+                In pursuit of this objective, we introduce an asynchronous stochastic model that captures the dynamics of opinion propagation within a network. Central to the model is a kernel function, which dictates how an individual's opinion responds to the opinions expressed by their social connections. To enable the integration of this model with real-world data, we design an expectation-maximization (EM) algorithm. This algorithm effectively learns the kernel function's parameters by utilizing synthetic timeseries data that reflects the evolution of individual opinions.
+
+            </div>
+          </div>
+          <br><span style="color:darkgray">---------</span><br>  
+            
+        <!-- SLOT -->
+          <span style="color:darkgray">
+            [1:50pm-2:10pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Michael Arnold
+          <!-- TITLE -->
+            <br>
+          <em>
+            Curating Social Media Datasets with Sentence Embeddings
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+            Advisor(s): Chris Danforth and Peter Dodds
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t3-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t3-abstract">
+            <div class="card card-body">
+              The ubiquity of social media posts containing broad public opinion offers an alternative data source to complement some shortcomings of traditional surveys. While surveys collect representative samples and achieve relatively high accuracy, they are both expensive to run and lag public opinion by days or weeks, which could be overcome with a real-time data stream and fast analysis pipeline. One challenge in this pipeline we seek to address is selecting the best corpus of relevant documents for analysis. Querying with keywords alone often includes irrelevant documents that are not easily disambiguated with bag-of-words NLP methods. We explore methods of corpus curation to filter irrelevant tweets using transformer-based sentence embedding models, fine-tuned for our binary classification task on hand-labeled tweets, and achieving F1 scores of up to 97%. The low cost and high performance of fine-tuning such a model suggests it should be widely adopted as a pre-processing step for many NLP tasks relying on social media data with uncertain corpus boundaries.
+            </div>
+          </div>
+          <br>
 
           <br>
         </td>
@@ -319,24 +353,25 @@
     <tr>
       <td class="text-nowrap">2:20pm–3:40pm</td>
       <td>
-        <span style="color:#007155; font-weight: bold;">Session III: 4 talks</span>
+        <span style="color:#007155; font-weight: bold;">Session III: Security and Privacy</span>
         <br>
        
  <!-- SLOT -->
           <span style="color:darkgray">
-            [11:50am-12:10pm]
+            [2:20pm-2:40pm]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Onyinye Angela Dibia 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            ZKMeter: A Framework for Privacy-Preserving Smart Metering via Zero-Knowledge Proofs
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Joe Near
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -344,7 +379,9 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+                This research addresses privacy concerns in implementing demand response approaches in smart grid systems. Smart meters record and report power consumption at 15-minute intervals, enabling dynamic pricing and enhancing energy management.
+                However, the granular nature of these smart meter readings exposes a critical vulnerability to privacy breaches. Prior research has astutely identified the privacy implications stemming from the utilization of such fine-grained data, underscoring the need for innovative solutions to mitigate these concerns.
+                Our primary focus is two-fold: ensuring accurate billing for consumers while safeguarding the confidentiality of their energy consumption information. To achieve this, we propose a novel framework based on Zero-Knowledge (ZK) proofs. ZK proofs are a cryptographic construct that allows parties to validate data authenticity without revealing the data itself. Our approach empowers energy consumers to compute their bills using smart meter data and provide a ZK proof of its correctness to the utility company without exposing sensitive details. Through empirical assessment, we showcase our approach's scalability to real-world data by completing ZK proofs for a month's worth of data in under two hours on a standard computer with minimal memory usage.
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br> 
@@ -353,19 +390,20 @@
           
            <!-- SLOT -->
           <span style="color:darkgray">
-            [11:50am-12:10pm]
+             [2:40pm-3:00pm]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Syed Ali Akber Jafri 
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            SensCheck: Automatic Testing of Differential Private Algorithm Sensitivity
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Joe Near
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -373,27 +411,68 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+                There is a need to share statistics and trends with researchers without compromising an individual's privacy. Differential    privacy has become the gold standard approach to privacy; it provides strong guarantees of privacy by adding random noise to statistics. However, implementing a differentially private algorithm can be challenging and prone to bugs. One important source of bugs is in calculating the sensitivity of an algorithm, which determines how much noise is required. Sensitivity bugs are easy to introduce, very difficult to catch, and can result in catastrophic privacy failures, including the accidental release of sensitive data. However, no tools exist to help programmers address these challenges, and the high potential risks have made differentially private algorithms costly to develop and hindered adoption.
+
+                We've developed SensCheck, a system that automatically finds sensitivity bugs in differentially private algorithms. SensCheck works by testing the algorithm on thousands of random inputs and comparing the results against a specification of sensitivity provided by the programmer. Our results demonstrate that SensCheck works on complex algorithms, including external libraries, and is completely automatic. By reducing the barriers to implementing correct differentially private algorithms, SensCheck has the potential to accelerate the adoption of differential privacy in practice.
+
             </div>
           </div>
           <br><span style="color:darkgray">---------</span><br>   
+         
           
+        <!-- SLOT -->
+          <span style="color:darkgray">
+            [3:00pm-3:20pm]
+          </span>
+          <br>
+          <!-- SPEAKER -->
+          Brad Stenger 
+          <!-- TITLE -->
+          <br>
+          <em>
+            Evaluating the Usability of Differential Privacy Tools
+          </em>
+          <!-- ADVISOR -->
+          <br>
+          <span style="color:darkgray">
+            Advisor(s): Yuanyuan Feng
+          </span>
+          <br>
+          <a data-toggle="collapse" href="#t3-abstract" role="button">
+            Abstract
+          </a>
+          <div class="collapse" id="t3-abstract">
+            <div class="card card-body">
+                Differential privacy (DP) adds noise to a dataset in a way that provides measurable amounts of privacy as well as small and measurable loss of accuracy. DP presents this tradeoff transparently. 
+
+                Libraries for implementing DP are important for developing these systems but only if tools are usable for developers. Our research problem investigates whether the four major Python DP libraries (OpenDP, Pipeline DP, Tumult Analytics, DiffPrivLib) are usable by data scientists.
+
+                The research methods we used to collect data rely on a three-task usability test that we designed for remote execution on the Jupyter notebooks (via Google Colab) within a Microsoft Teams online meeting, augmented by Qualtrics surveys. 
+
+                One research question explores users’ learnability from applying the different DP libraries. Learnability comes in two forms: understanding DP conceptually and understanding DP implementation. The second and third research questions explore data scientists’ usability experience with these DP libraries in terms of ease of use, understandable documentation and end-user satisfaction.
+
+                Users with the most Python data science experience and the greatest familiarity with DP experienced fewer usability problems during the tasks. Novice-level participants experienced greater difficulty with tasks but still demonstrated improved understanding of DP implementation and concepts.
+
+            </div>
+          </div>
+          <br><span style="color:darkgray">---------</span><br> 
           
          <!-- SLOT -->
           <span style="color:darkgray">
-            [11:50am-12:10pm]
+            [3:20pm-3:40pm]
           </span>
           <br>
           <!-- SPEAKER -->
-          Name 
+          Protiva Sen
           <!-- TITLE -->
+          <br>
           <em>
-            Title of the talk
+            Hacker Detection: Understanding Beginner Hackers via Honey Documents
           </em>
           <!-- ADVISOR -->
           <br>
           <span style="color:darkgray">
-            Advisor(s): Name
+            Advisor(s): Jeremiah Onaolapo
           </span>
           <br>
           <a data-toggle="collapse" href="#t3-abstract" role="button">
@@ -401,38 +480,9 @@
           </a>
           <div class="collapse" id="t3-abstract">
             <div class="card card-body">
-              abstract
+              With the growing popularity of the Internet and its application, hacking rate is also increasing to compromise the sensitive information for malevolent purposes. To better understand the motivation behind individuals being a hacker, we conducted a study using honey documents. We set up 100 Google documents for the Surface Web and Dark Web which were populated with fake hacking techniques. We added an additional step in each document with the promise of getting a Hack the Box gift code. To lure visitors into visiting our honey documents, we strategically uploaded them on the paste sites of the Surface Web and Dark Web. After monitoring the uploaded documents over 65 days, we received a total of 8,416 clicks from the Surface Web and a total of 789 clicks from the Dark Web on our uploaded Google documents. Additionally, we recorded total accesses of 5,751 and 32 on the Surface Web and Dark Web respectively from the Hack the Box Gift Code link. These findings suggest that visitors from the Surface Web were more interested in learning hacking methods compared to visitors from the Dark Web. Overall, this study presents an overview of the interests of people seeking to learn hacking techniques.
             </div>
           </div>
-          <br><span style="color:darkgray">---------</span><br>   
-          
-          
-           <!-- SLOT -->
-          <span style="color:darkgray">
-            [11:50am-12:10pm]
-          </span>
-          <br>
-          <!-- SPEAKER -->
-          Name 
-          <!-- TITLE -->
-          <em>
-            Title of the talk
-          </em>
-          <!-- ADVISOR -->
-          <br>
-          <span style="color:darkgray">
-            Advisor(s): Name
-          </span>
-          <br>
-          <a data-toggle="collapse" href="#t3-abstract" role="button">
-            Abstract
-          </a>
-          <div class="collapse" id="t3-abstract">
-            <div class="card card-body">
-              abstract
-            </div>
-          </div>
-          <br>  
 
       </td>
     </tr>
@@ -452,14 +502,19 @@
     <h4>Waiting List</h4>
     <table class="table">    
           <a data-toggle="collapse" href="#waitinglist" role="button">
-            Click here to expand. Listed top to bottom.
+            Click here to see waitlisted student presentations.
           </a>
           <div class="collapse" id="waitinglist">
             <div class="card card-body">
               <p>
-                1. Name 1, <em>Title 1</em><br>
-                2. Name 2, <em>Title 2</em><br>
-                3. Name 3, <em>Title 3</em>
+                1. Muhammad Adil, <em>Deep Learning Framework to Predict Harmful Algal Blooms by Leveraging Multi-Modal Data</em><br>
+                2. Steven Baldasty, <em>Detecting data poisoning during the federated training of random forests</em><br>
+                3. Parisa Suchdev, <em>Analyzing the Impact of Cultural Factors on Happiness Levels in Arabic Language Tweets</em><br>
+                4. Ahmad Arrabi, <em>Cross-view image synthesis with generative models</em><br>
+                5. Ratang Sedimo, <em>Distributed HDMM: Optimal Accuracy without a Trusted Curator</em><br>
+                6. Calum Buchanan, <em>Subgraph complementation and minimum rank of graphs</em><br>
+                7. Ethan Ratliff-Crain, <em>Cont's Stylized Facts in the Modern Stock Market</em><br>
+            
               </p>
             </div>
           </div>
